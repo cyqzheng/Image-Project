@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dihuzyuti
+  api_key: '966973459363689'
+  api_secret: _ik9EwlvzhdH8mOjzWxYxDeZvlw
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: dihuzyuti
+  api_key: '966973459363689'
+  api_secret: _ik9EwlvzhdH8mOjzWxYxDeZvlw
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: dihuzyuti
+  api_key: '966973459363689'
+  api_secret: _ik9EwlvzhdH8mOjzWxYxDeZvlw
+  enhance_image_tag: true
+  static_file_support: false

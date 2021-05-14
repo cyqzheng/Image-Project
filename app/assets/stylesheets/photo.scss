@@ -1,0 +1,72 @@
+// app/assets/stylesheets/photo.scss
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.uploads{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.images{
+    .post{
+        width: 500px;
+        border-radius: 10px;
+        border: 1px solid rgb(214, 210, 210);
+        margin-bottom: 20px;
+    }
+}
+.post-image{
+    width: 100%;
+}
+.post-caption{
+    padding-left: 20px;
+}
+.post-tags{
+    padding-left: 20px;
+}
+.uploads{
+    display: flex;
+    justify-content: space-between;
+}
+input[type="submit"]{
+    background-color: #455485;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+input[type="text"]{
+    background-color:#6d83c5;
+    padding: 12px 20px;
+    border: #455485;
+    color: white;
+    box-sizing: border-box;
+    margin: 8px 0;
+    width: 50%
+}
+input[type="file"]{
+    background-color: #6d83c5;
+    border: none;
+    color: white;
+    padding: 8px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.hide_file{
+    position: absolute;
+    z-index: 1000;
+    opacity: 0;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    height: 10%;
+    font-size: 12px;
+    width: 10%;
+}
