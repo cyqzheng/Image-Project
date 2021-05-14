@@ -1,19 +1,24 @@
 # README
 
-* Ruby version
+Ruby on Rails set up for WSL following: https://gorails.com/setup/windows/10. 
 
-* System dependencies
+* Ruby version: ruby 3.0.1p64
 
-* Configuration
+* Rails version: 6.1.3.2
 
-* Database creation
+* Database creation: Using MySQL.
 
-* Database initialization
+* Database initialization: rake db:create
 
-* How to run the test suite
+* Services: Upload images to public server with captions and tags. View other images in real time.
 
-* Services (job queues, cache servers, search engines, etc.)
+* Deployment instructions:
+```
+rails server
+```
 
-* Deployment instructions
+Note: This currently contains keys to "burner" Cloudinary and Pusher accounts. If you wish to create a similar website with your own accounts:
+* go to config and modify cloudinary.yml to your Cloudinary keys
+* go to config/initializers and modify pusher.rb to your Pusher keys
 
-* ...
+Frontend and Search features are currently being implemented. Have fun looking at my cat!
