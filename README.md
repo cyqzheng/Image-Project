@@ -21,4 +21,6 @@ Note: This currently contains keys to "burner" Cloudinary and Pusher accounts. I
 * go to config and modify cloudinary.yml to your Cloudinary keys
 * go to config/initializers and modify pusher.rb to your Pusher keys
 
+Note that the master.key is missing. Update credentials and add the master.key file to 
+
 Frontend and Search features are currently being implemented. Have fun looking at my cat!
